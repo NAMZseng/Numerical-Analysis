@@ -30,8 +30,8 @@ def spline(lt):
     k = 0
     # 每个样条过两个已知点
     for i in range(2 * n):
-        yNum = lt[j][1]
         xNum = lt[j][0]
+        yNum = lt[j][1]
         number = 3 * k
         Y[i] = yNum
         X[i][number] = xNum ** 2

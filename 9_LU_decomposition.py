@@ -58,7 +58,7 @@ def get_x(L, U, P, b):
     :param L: 下三角L矩阵
     :param U: 上三角U矩阵
     :param P: 置换矩阵
-    :param b: 方程组的常数项一位数组
+    :param b: 方程组的常数项一维数组
     :return: 线性方程组的解集数组ans
     """
     n = len(b)
